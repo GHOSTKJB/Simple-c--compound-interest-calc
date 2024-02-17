@@ -12,7 +12,7 @@ namespace CompoundInterestCalc
       Console.WriteLine($"Keenan's simple compund interest calculator!");
       
       //Initial investment input
-      Console.WriteLine($"How much is the initial interest?");
+      Console.WriteLine($"How much is the initial investment?");
       var investInit = Console.ReadLine();
 
       //Years to compund interest input
@@ -25,23 +25,36 @@ namespace CompoundInterestCalc
 
 
 
+      // Importing the data from my methoc convertStringInt
+      convertStringInt(investInit,investYear,investAvgInterest, out int investInitInt, out int investYearInt, out int investAvgInterestInt);
+
       //Maths
       // This equation is correct but the data is still strings instead of int: var finalInvest = investInit * Math.Pow((1 + investAvgInterest) , investYear);
+      double interestTotal = investInitInt * (1 + investAvgInterestInt * investYearInt);
+      double compoundInterestTotal = investInitInt * Math.Pow(1 + (investAvgInterestInt / 1), 1 * investYearInt);
+    
+
+      Console.WriteLine($"");
+      Console.WriteLine($"");
+      Console.WriteLine($"The estimated interest after {investYearInt} is ${interestTotal}");
+      Console.WriteLine($"This is the estimated compound interest value after {investYear} years. ${compoundInterestTotal}");
 
       
 
-
       //Outputs
-      convertStringInt(investInit,investYear,investAvgInterest, out int investInitInt, out int investYearInt, out int investAvgInterestInt);
+      
       
   
 
 
 
       //tests
+      /*
+      Console.WriteLine($"");
+      Console.WriteLine($"Tests:");
       Console.WriteLine($"Your Initial Investment: {investInit}, Years to hold: {investYear}, Estimated Average Interest Rates: {investAvgInterest}");
-      Console.WriteLine();
-
+      Console.WriteLine($"After parsing your initial investment is {investInitInt}. Years to hold: {investYearInt}. Estimated Average Interest Rates: {investAvgInterestInt}");
+      */
     }
     public static void convertStringInt (string investInit, string investYear, string investAvgInterest, out int investInitInt, out int investYearInt, out int investAvgInterestInt) {
 
