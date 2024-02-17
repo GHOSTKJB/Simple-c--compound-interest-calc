@@ -33,11 +33,26 @@ namespace CompoundInterestCalc
       double interestTotal = investInitInt * (1 + investAvgInterestInt * investYearInt);
       double compoundInterestTotal = investInitInt * Math.Pow(1 + (investAvgInterestInt / 1), 1 * investYearInt);
     
-
+      if(investInitInt >= 1 && investYearInt >= 1 && investAvgInterestInt >= 1 ){
       Console.WriteLine($"");
       Console.WriteLine($"");
       Console.WriteLine($"The estimated interest after {investYearInt} is ${interestTotal}");
       Console.WriteLine($"This is the estimated compound interest value after {investYear} years. ${compoundInterestTotal}");
+      }
+      else{
+        Console.WriteLine($"");
+        Console.WriteLine($"");
+        Console.WriteLine($"");
+        Console.WriteLine($"");
+        Console.WriteLine($"");
+        Console.WriteLine($"");
+        Console.WriteLine($"Please only enter numbers.");
+        Console.WriteLine($"");
+        Console.WriteLine($"");
+        Console.WriteLine($"");
+
+      }
+     
 
       
 
