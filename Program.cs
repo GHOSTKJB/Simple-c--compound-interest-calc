@@ -32,9 +32,9 @@ namespace CompoundInterestCalc
 
 
       //Outputs
-      int investIntegers = convertStringInt(investInit,investYear,investAvgInterest);
+      convertStringInt(investInit,investYear,investAvgInterest, out int investInitInt, out int investYearInt, out int investAvgInterestInt);
       
-      
+  
 
 
 
@@ -43,19 +43,15 @@ namespace CompoundInterestCalc
       Console.WriteLine();
 
     }
-    public static int convertStringInt (string input, string input2, string input3) {
+    public static void convertStringInt (string investInit, string investYear, string investAvgInterest, out int investInitInt, out int investYearInt, out int investAvgInterestInt) {
 
-      var investInitInt = 0;
-      var investYearInt = 0;
-      var investAvgInterestInt = 0;
+      
 
-      bool success = int.TryParse(input, out investInitInt);
-      bool success2 = int.TryParse(input2, out investYearInt);
-      bool success3 = int.TryParse(input3, out investAvgInterestInt);
+      bool success = int.TryParse(investInit, out investInitInt);
+      bool success2 = int.TryParse(investYear, out investYearInt);
+      bool success3 = int.TryParse(investAvgInterest, out investAvgInterestInt);
 
-      return investInitInt;
-      return investYearInt;
-      return investAvgInterestInt;
+  
 
 
    
