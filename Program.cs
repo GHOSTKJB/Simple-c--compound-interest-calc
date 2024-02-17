@@ -32,21 +32,20 @@ namespace CompoundInterestCalc
 
 
       //Outputs
-
-     
-      var finalInvest = convertStringInt;
+      int investIntegers = convertStringInt(investInit,investYear,investAvgInterest);
+      
       
 
 
 
       //tests
       Console.WriteLine($"Your Initial Investment: {investInit}, Years to hold: {investYear}, Estimated Average Interest Rates: {investAvgInterest}");
-      Console.WriteLine(finalInvest);
+      Console.WriteLine();
 
     }
     public static int convertStringInt (string input, string input2, string input3) {
 
-      var investInitInt = 0; 
+      var investInitInt = 0;
       var investYearInt = 0;
       var investAvgInterestInt = 0;
 
@@ -57,6 +56,9 @@ namespace CompoundInterestCalc
       return investInitInt;
       return investYearInt;
       return investAvgInterestInt;
+
+
+   
     }
 
 

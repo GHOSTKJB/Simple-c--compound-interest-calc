@@ -1,0 +1,15 @@
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfoInputs.cache
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfo.cs
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.sourcelink.json
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.deps.json
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.runtimeconfig.json
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.dll
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.pdb
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.dll
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/obj/Debug/net8.0/refint/ConsoleApp1.dll
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.pdb
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.genruntimeconfig.cache
+/home/keenan/Documents/coding/cs_practice/ConsoleApp1/obj/Debug/net8.0/ref/ConsoleApp1.dll
